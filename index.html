@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Javascript Calculator</title>
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+
+
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="display">
+      <div class="history"></div>
+      <div class="line"></div>
+      <textarea class="calculation" rows="2" readonly></textarea>
+    </div>
+    <div class="buttons">
+      <button value="379009" class="mystery2 auto" onclick="doAutoFlip();">AUTO</button>
+      <button value="379009" class="mystery2" onclick="stopFlip();">Reset</button>
+      <button value="379009" class="mystery">√</button>
+      <button value="square" class="square" onclick="">&#131;²</button>
+      <br>
+      <button value="379009" class="mystery">Ω</button>
+      <button value="root" class="mystery">Ω</button>
+      <button value="%">%</button>
+      <button value="AC">AC</button>
+      <button value="7" class="num">7</button>
+      <button value="8" class="num">8</button>
+      <button value="9" class="num">9</button>
+      <button value=" / " class="oper">÷</button>
+      <button value="4" class="num">4</button>
+      <button value="5" class="num">5</button>
+      <button value="6" class="num">6</button>
+      <button value=" * " class="oper">×</button>
+      <button value="1" class="num">1</button>
+      <button value="2" class="num">2</button>
+      <button value="3" class="num">3</button>
+      <button value=" - " class="oper">-</button>
+      <button value="0" class="num">0</button>
+      <button value=".">.</button>
+      <button value="=">=</button>
+      <button value=" + " class="oper">+</button>
+    </div>
+  </div>
+  <footer id="footer" class="text-center">
+    <div class="container">
+      Designed with <i class="fas fa-heart"></i> by
+      <a class="author" href="https://www.instagram.com/jasky.singh/" target="_blank">
+         Jaskaran Singh</a>
+    </div>
+  </footer>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
